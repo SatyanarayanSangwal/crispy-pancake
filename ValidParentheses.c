@@ -7,7 +7,7 @@
 
 bool isValid(char* s) {
 
-    char memory[100];
+    char memory[10000];
     int top=-1;
 
     for(int i=0; s[i]!='\0'; i++)
